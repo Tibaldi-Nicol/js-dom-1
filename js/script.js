@@ -12,12 +12,15 @@ interruttore.addEventListener('click', function() {
     if (interruttore.textContent === 'Accendi') {
         // Cambio immagine e testo per accendere
         lampadina.src = '../img/yellow_lamp.png';
+        //textcontent semplicemente cambia il testo
         interruttore.textContent = 'Spegni';
     } else {
         // Cambio immagine e testo per spegnere
         lampadina.src = '../img/white_lamp.png';
         interruttore.textContent = 'Accendi';
     }
+
+    //normale if else
 });
 
 //spiegazione esercio e spiegazione delle nuoive funzioni viste in classe (promemoria personale)
@@ -41,4 +44,4 @@ interruttore.addEventListener('click', function() {
 // Se il testo è 'Spegni'
 // Cambio immagine e testo per spegnere la lampadina
 
-
+//js finiyo
