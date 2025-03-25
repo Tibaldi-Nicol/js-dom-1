@@ -20,3 +20,25 @@ interruttore.addEventListener('click', function() {
     }
 });
 
+//spiegazione esercio e spiegazione delle nuoive funzioni viste in classe (promemoria personale)
+
+// Esercizio 1
+// Creare una pagina HTML con un bottone e una lampadina.
+// Il bottone deve accendere e spegnere la lampadina.
+// La lampadina deve cambiare immagine quando viene accesa o spenta.
+
+//codice js dalle variabili in poi
+// Creo due variabili, una per la lampadina e una per l'interruttore
+// con document.getElementById ottengo l'elemento con l'id specificato
+// e lo salvo nella variabile
+// Aggiungo un event listener all'interruttore che ascolta il click
+// e quando viene cliccato chiama la funzione
+//in che senso ascolta il click? cosa fa quando viene cliccato?
+// IN PRATICA QUANDO CLICCHI SULL'INTERRUTTORE, VIENE CHIAMATA LA FUNZIONE CHE CONTIENE IL CODICE PER ACCENDERE O SPEGNERE LA LAMPADINA
+// Controllo lo stato corrente dell'interruttore
+// Se il testo è 'Accendi'
+// Cambio immagine e testo per accenderela lampadina
+// Se il testo è 'Spegni'
+// Cambio immagine e testo per spegnere la lampadina
+
+
