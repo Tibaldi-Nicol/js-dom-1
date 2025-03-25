@@ -1,0 +1,23 @@
+
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #bfc9d1;
+}
+
+.container{
+
+    text-align: center;
+    padding: 0 15px;
+    background-color: rgb(157, 201, 201);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
