@@ -5,10 +5,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.container-principale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #bfc9d1;
+}
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #bfc9d1;
+
+    
 }
 
 .container{
